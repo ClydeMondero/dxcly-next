@@ -22,7 +22,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body
-          className={`${inter.className} antialiased bg-background text-white text-sm`}
+          className={`${inter.className} antialiased bg-background text-white text-sm overflow-x-hidden`}
         >
           <Navbar />
           {children}
